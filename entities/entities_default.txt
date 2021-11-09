@@ -1,0 +1,2 @@
+sv_hl2mp_weapon_respawn_time 20
+sv_hl2mp_item_respawn_time 30
