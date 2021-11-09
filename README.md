@@ -12,7 +12,7 @@ Copy and paste this to to hl2mp\cfg
 Execute the config by typing `exec foldername/setting.cfg`
 Restart the map
 
-# Reset
+# Reset Values to Default
 You'll need to reset a category's settings by typing `exec foldername/category_default.cfg`
 
 # Recommended
