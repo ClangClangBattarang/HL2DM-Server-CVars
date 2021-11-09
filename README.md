@@ -1,4 +1,4 @@
-# HL2DM-Server-CVars
+# HL2DM Server CVars
 Collecting various settings profiles that used on different servers for convience sake.
 
 A lot of settings are decoupled for mix and matching.
