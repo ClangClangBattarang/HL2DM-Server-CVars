@@ -15,5 +15,5 @@ Restart the map
 # Reset Values to Default
 You'll need to reset a category's settings by typing `exec foldername/category_default.cfg`
 
-# Recommended
+# Recommended Server Stuff
 * https://github.com/utharper/sourcemod-hl2dm#hl2dmfix - Part of the XMS plugin suite that not only fixes most phyiscs problems, it also allows server admins (and cheating, insecure listen servers) to change fall damage maximum by using `mp_falldamage`.

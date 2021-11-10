@@ -1,2 +1,66 @@
+// Side note: A lot of these values should override skill.cfg
+// Todo: Find if changing the skill from default (1) will alter gameplay in deathmatch
+
+// ====================================================
+// Item Respawn times
+// ====================================================
 sv_hl2mp_weapon_respawn_time 20
 sv_hl2mp_item_respawn_time 30
+
+// ====================================================
+// Health & Armour
+// ====================================================
+
+// Chargers
+sk_healthcharger 50
+sk_suitcharger 30
+
+sk_suitcharger_citadel 200 // Supercharger/Megacharger aka the normal charger that's merged inside the Combine ration unit thing
+sk_suitcharger_citadel_maxarmor	200 // Ignores base max armour
+
+// Stats pickups
+
+sk_healthkit 25 // Moderate Health
+sk_healthvial 10 // Small Health
+
+sk_battery "15" // Small Armour
+
+// ====================================================
+// Weapon Mechanics
+// ====================================================
+
+// General
+sk_auto_reload_time 3 // Backpack reloading time in seconds
+
+// Combine Ball (Energy Orb) Mechanics
+sk_combine_ball_search_radius 512
+sk_combineball_guidefactor 0.5
+sk_combineball_seek_angle 15.0 // Degrees
+sk_combineball_seek_kill 0
+
+// Pulse Rifle (AR2) Alt Fire
+sk_weapon_ar2_alt_fire_duration	4 // Lifetime of launched orb
+sk_weapon_ar2_alt_fire_mass 150 // Adjusts the force that an orb pushes objects with
+sk_weapon_ar2_alt_fire_radius 10 // Projectile size. Can only go smaller than 10.
+
+// ====================================================
+// Player Regional Damage Multipliers
+// ====================================================
+
+// These are all floats
+sk_player_head		"3"
+sk_player_chest		"1"
+sk_player_stomach	"1"
+sk_player_arm		"1"
+sk_player_leg		"1"
+
+// ====================================================
+// Misc pickup stuff
+// ====================================================
+
+sk_dynamic_resupply_modifier "1" // Vanilla dynamic crate behaviour (I don't think any commonly played maps use them, anyway)
+
+// Ammo scaling for pickups presumibly linked to "skill" cvar. Disabled due to possibly non-default behaviour on my end
+//sk_ammo_qty_scale1 1 // 1.20?
+//sk_ammo_qty_scale2 1 // 1.00?
+//sk_ammo_qty_scale3 1 // 0.60?
