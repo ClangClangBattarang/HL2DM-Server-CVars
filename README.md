@@ -1,7 +1,7 @@
 # HL2DM Server CVars
-Collecting various settings profiles that used on different servers for convience sake.
+This is a compilation of various game settings that have been recorded for both game hosting and game modding purposes.
 
-A lot of settings are decoupled for mix and matching.
+These settings, by default, are decoupled into categories, allowing users to quickly mix and match settings.
 
 # Requirements
 * SourceMod
@@ -20,4 +20,4 @@ You'll need to reset a category's settings by typing `exec foldername/category_d
 * https://forums.alliedmods.net/showthread.php?t=274722 - Faster Chargers plugin. Can be used to control recharge speed.
 
 # Credits
-Xeogin - Stole some stuff from his server config. https://github.com/Xeogin/xeogin.github.io/tree/master/hl2mp
+**Xeogin** - Stole some stuff from his server config. https://github.com/Xeogin/xeogin.github.io/tree/master/hl2mp
