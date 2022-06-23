@@ -4,13 +4,13 @@ This is a compilation of various game settings that have been recorded for both 
 These settings, by default, are decoupled into categories, allowing users to quickly mix and match settings.
 
 # Requirements
-* SourceMod
-* MetaMod (SM dependency)
+* [SourceMod](https://www.sourcemod.net/downloads.php?branch=stable)
+* [MetaMod](https://www.sourcemm.net/downloads.php?branch=stable)
 
 # Instructions
-Copy and paste this to to hl2mp\cfg
-Execute the config by typing `exec foldername/setting.cfg`
-Restart the map
+1. Copy and paste this to to hl2mp\cfg
+2. Execute the config by typing `exec foldername/setting.cfg`
+3. Restart the map
 
 # Reset Values to Default
 You'll need to reset a category's settings by typing `exec foldername/category_default.cfg`
