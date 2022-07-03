@@ -15,6 +15,10 @@ These settings, by default, are decoupled into categories, allowing users to qui
 # Reset Values to Default
 You'll need to reset a category's settings by typing `exec foldername/foldername_default.cfg`
 
+# Getting server settings
+Outside of asking the server admin about this, you can usually find out manually.
+Wiki page. https://github.com/ClangClangBattarang/HL2DM-Server-CVars/wiki/Finding-game-settings
+
 # Other Recommended Server Stuff
 ## Server Plugins
 * [HL2DM Fix](https://github.com/utharper/sourcemod-hl2dm#hl2dmfix) - Part of the XMS plugin suite that not only fixes most phyiscs problems, it also allows server admins (and cheating, insecure listen servers) to change fall damage maximum by using `mp_falldamage`.
