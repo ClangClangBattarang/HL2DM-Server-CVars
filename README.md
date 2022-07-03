@@ -15,9 +15,9 @@ These settings, by default, are decoupled into categories, allowing users to qui
 # Reset Values to Default
 You'll need to reset a category's settings by typing `exec foldername/foldername_default.cfg`
 
-# Getting server settings
-Outside of asking the server admin about this, you can usually find out manually.
-Wiki page. https://github.com/ClangClangBattarang/HL2DM-Server-CVars/wiki/Finding-game-settings
+## Getting server settings
+If the settings aren't listed here, there are ways of getting a server's settings outside of asking the admin.
+Consult [this GitHub's wiki page](https://github.com/ClangClangBattarang/HL2DM-Server-CVars/wiki/Finding-game-settings) for more info. 
 
 # Other Recommended Server Stuff
 ## Server Plugins
